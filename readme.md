@@ -1,6 +1,6 @@
 # **Changelog Project**
 
-## **Overview <3**
+## **Overview**
 
 This project is a simple changelog page that displays a list of updates and changes made to a product or service.
 
