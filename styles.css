@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    background-color: rgb(202, 228, 230);
+    font-family:'Franziska, Georgia, Cambria';
+    font-size: 20px;
+    max-width:800px;
+    justify-self: center;
+}
+
+.main{
+    
+   /* background-color: rgb(230, 36, 36);*/
+
+}
+
+.change{
+    padding-top:50px;
+    height: 50px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+
+
+}
+
+.basics{
+    text-align: center;
+    padding-bottom: 20px;
+    /*background-color: rgb(221, 166, 166);*/
+
+
+}
+.list{
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.item{
+    /* background-color: rgb(143, 143, 218); */
+    height: 40px;
+    margin: 15px;
+    display:flex
+}
+
+.date{
+   /* background-color: blueviolet; */
+    width:40%;
+    display:flex;
+    justify-content:center;
+
+}
+.text{
+    
+    /* background-color: rgb(43, 61, 226); */
+    width:55%;
+    display:flex;
+    justify-content:left;
+
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 6px;
+  }
+.line{
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 100px;
+    position: relative;
+    top: -40px;
+    left: -47.5px;
+}
+.button{
+    width:200px;
+    border-radius:8px;
+    margin:40px;
+    padding: 12px;
+    background-color: #b5a7f3;
+    font-family:'Franziska, Georgia, Cambria';
+    color:rgb(41, 75, 97);
+    text-align:center;
+    align-self:center;
+    border:px solid black;
+    
+
+}
+.button:hover{
+    background-color: #d6b5e4;
+
+}
+.button:active{
+    background-color: #d6b5e4;
+    box-shadow:inset 0 0px 4px 1px rgba(0,0,0,0.24);
+    
+}
